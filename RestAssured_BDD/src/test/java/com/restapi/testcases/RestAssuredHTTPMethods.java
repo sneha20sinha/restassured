@@ -32,7 +32,7 @@ public class RestAssuredHTTPMethods
 		
 	}
 	
-	@Test(priority=2,dataProviderClass=RestUtilites.class,dataProvider="Data")
+	//@Test(priority=2,dataProviderClass=RestUtilites.class,dataProvider="Data")
 	public void test_Add(String id, String name, String releaseDate, String reviewScore)
 	{
 		HashMap map = new HashMap();
@@ -60,7 +60,7 @@ public class RestAssuredHTTPMethods
 	}
 	
 	
-	@Test(priority=3,dataProviderClass=RestUtilites.class,dataProvider="Data")
+	//@Test(priority=3,dataProviderClass=RestUtilites.class,dataProvider="Data")
 	public void test_Get(String id, String name, String releaseDate, String reviewScore)
 	{
 		given()
@@ -77,7 +77,7 @@ public class RestAssuredHTTPMethods
 			          
 	}
 	
-	@Test(priority=4,dataProviderClass=RestUtilites.class,dataProvider="Data")
+	//@Test(priority=4,dataProviderClass=RestUtilites.class,dataProvider="Data")
 	public void test_Update(String id, String name, String releaseDate, String reviewScore)
 	{
       HashMap map = new HashMap();
@@ -103,7 +103,7 @@ public class RestAssuredHTTPMethods
                
 	}
        
-	@Test(priority=5,dataProviderClass=RestUtilites.class,dataProvider="Data")
+	//@Test(priority=5,dataProviderClass=RestUtilites.class,dataProvider="Data")
 	public void test_Delete(String id, String name, String releaseDate, String reviewScore)
 	{
 		Response res=
