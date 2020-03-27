@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4154" started-at="2020-03-27T01:07:33Z" finished-at="2020-03-27T01:07:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4154" started-at="2020-03-27T01:07:33Z" finished-at="2020-03-27T01:07:37Z">
+      <class name="com.restapi.testcases.RestAssuredHTTPMethods">
+        <test-method status="PASS" signature="test_Delete(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.restapi.testcases.RestAssuredHTTPMethods@57baeedf]" name="test_Delete" duration-ms="3067" started-at="2020-03-27T01:07:34Z" data-provider="Data" finished-at="2020-03-27T01:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Musical]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2019-09-20T08:55:58.510Z]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Delete -->
+      </class> <!-- com.restapi.testcases.RestAssuredHTTPMethods -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
